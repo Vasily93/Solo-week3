@@ -1,5 +1,5 @@
 //writing a function
-function makeUser(formData)  {
+function makeUser(formData) {
     const user = {
         animal: formData.get('animal'),
         name: formData.get('name'),

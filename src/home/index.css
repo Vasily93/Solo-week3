@@ -4,7 +4,7 @@ body {
     max-width: 630px;
     margin: 0 auto;
     float: none;
-    background-color: blanchedalmond;
+    background-color: rgb(213, 205, 255);
 }
 img {
     margin: 20px;
@@ -26,4 +26,7 @@ section {
 }
 button {
     background-color: rgb(247, 144, 9);
+}
+radio {
+    
 }
