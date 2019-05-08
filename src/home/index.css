@@ -27,6 +27,7 @@ section {
 button {
     background-color: rgb(247, 144, 9);
 }
-radio {
-    
+header {
+    background-color: rgb(252, 198, 81);
+    border-radius: 3%;
 }
