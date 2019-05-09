@@ -1,0 +1,27 @@
+body {
+
+    text-align: center;
+    max-width: 630px;
+    margin: 0 auto;
+    float: none;
+    background-color: rgb(213, 205, 255);
+}
+
+header {
+    background-color: rgb(252, 198, 81);
+    border-radius: 3%;
+}
+div {
+    font-size: 30px;
+}
+img {
+    border-radius: 6%;
+    padding-top: 5px;
+}
+main {
+    background-color: rgb(253, 187, 100);
+    border-radius: 2%;
+}
+button {
+    background-color: rgb(247, 144, 9);
+}
