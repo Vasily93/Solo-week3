@@ -8,7 +8,7 @@ function createQuestLink(quest) {
 
     link.style.top = quest.map.top;
     link.style.right = quest.map.right;
-    link.testContent = quest.title;
+    link.textContent = quest.title;
 
     return link;
 }

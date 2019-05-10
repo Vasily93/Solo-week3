@@ -1,5 +1,5 @@
 import api from '../src/services/api.js';
-import questData from "../src/services/quest-data.js";
+import questData from '../src/services/quest-data.js';
 const test = QUnit.test;
 
 QUnit.module('api');

@@ -1,18 +1,15 @@
 import api from '../services/api.js';
+import loadProfile from '../services/load-profile.js';
+import createQuestLink from './create-quest-link.js';
 
-const avatar = document.getElementById('avatar');
-const name = document.getElementById('name');
-const life = document.getElementById('life');
-const food = document.getElementById('food');
+loadProfile();
 
-const user = api.getUser();
+const quests = api.getQuests();
 
-if(!user) {
-    window.location = './';
+const nav = document.getElementById('quests');
+
+for(let i = 0; i < quests.length; i++) {
+    const quest = quests[i];
+    const link = createQuestLink(quest);
+    nav.appendChild(link);
 }
-
-avatar.src = 'assets/avatars/' + user.animal + '.png';
-name.textContent = user.name;
-life.textContent = user.life;
-food.textContent = user.food;
-//console.log(user);
