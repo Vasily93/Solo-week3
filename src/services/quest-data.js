@@ -131,3 +131,7 @@ const trashcan = {
         food: 50
     }]
 };
+
+const quests = [park, highway, trashcan];
+
+export default quests;

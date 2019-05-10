@@ -7,6 +7,7 @@
     <title>Quests</title>
     <link rel="stylesheet" href="./src/quest/quest.css">
 </head>
+<body>
     <header>
         <div class="profile">
             <span id="name"></span>
@@ -18,31 +19,12 @@
             <span id="food" class="food"></span>
         </div> 
     </header>
-<body>
+
     <main>
-        <h2>Quest: City Park</h2>
-        <img src="./assets/park.jpg" alt="park">
-        <p>You are at city central park. You are hungry and looking for food. Peaple running around,
-        playing freesbe and walking their dogs. </p>
-        
-        <h3>Your Actions:</h3>
-        <p>
-            <label >
-                <input name="choices" type="radio">
-                Talk to humans.
-            </label>
-            <label >
-                <input name="choices" type="radio">
-                Try to steel Food.
-            </label>
-            <label >
-                <input name="choices" type="radio">
-                Pretend to be dead.
-            </label>
-        </p>
-        <p><button>Choose</button></p>
-        <p>Outcome</p>
-        <p>Link to map page</p>
+       <h3 id="title"></h3>
+       <p><img id="image"></p>
+       <p id="description"></p>
+       <form id="choices"></form> 
     </main>
 
     <script type="module" src="./src/quest/quest.js"></script>
