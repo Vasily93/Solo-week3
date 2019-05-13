@@ -3,7 +3,7 @@ const test = QUnit.test;
 
 QUnit.module('score quest');
 
-test('creates correst html', (assert) => {
+test('creates correct html', (assert) => {
     const questId = 'park';
     
     const choice = {
