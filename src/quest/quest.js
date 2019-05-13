@@ -40,7 +40,7 @@ choiceForm.addEventListener('submit', function(event) {
 
     const user = api.getUser();
     scoreQuest(choice, quest.id, user);
-    api.saveUser(user);
+    api.signUp(user);
     
     choiceForm.classList.add('hidden');
     result.classList.remove('hidden');
