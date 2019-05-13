@@ -1,7 +1,6 @@
-function scoreQuest(choice, questId, user) {
+function scoreQuest(choice, user) {
     user.life += choice.life;
     user.food += choice.food;
-    //user.completed[questId] = true;
 }
 
 export default scoreQuest;
