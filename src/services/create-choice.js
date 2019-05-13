@@ -1,17 +1,18 @@
 function createChoice(choice) {
-    const div = document.createElement('div');
-    const label = document.createAttribute('label');
-    const input = document.createElement('input');
-    label.textContent = choice.description;
+    const label = document.createElement('label');
+    label.classList.add('choice');
 
-    div.appendChild(label);
-    input.setSelectionRange('type', 'radio');
-    input.value = choice.id;
-    input.id = choice.id;
-    input.name = 'radioButtons';
+    const radio = document.createElement('input');
+    radio.type = 'radio';
+    radio.name = 'choice';
+    radio.value = choice.id;
+    label.appendChild(radio);
 
-    div.appendChild(input);
-    return div;
+    const description = document.createElement('span');
+    description.textContent = choice.description;
+    label.appendChild(description);
+
+    return label;
 }
 
 export default createChoice;

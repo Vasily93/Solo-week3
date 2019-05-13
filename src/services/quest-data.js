@@ -5,6 +5,7 @@ const park = {
         top: '10%',
         right: '40%'
     },
+    image: 'park.jpg',
     description: `
     You are at city central park. You are hungry and looking
     for food. People running around playing freesbe,
@@ -50,6 +51,7 @@ const highway = {
         top: '45%',
         right: '20%'
     },
+    image: 'highway.jpg',
     description: `
     You standing on a side of highway and see on the other side 
     mention of thrown away food. You thinking about crossing the road.
@@ -87,12 +89,13 @@ const highway = {
 };
 
 const trashcan = {
-    id: 'trachcan',
+    id: 'trashcan',
     title: 'City Trashcan',
     map: {
         top: '60%',
         right: '60%'
     },
+    image: 'trashcan.jpg',
     description: `
     You find yourself next to largest trashcan in the city. Among 
     city animals you heard legends about how rich it is. But something

@@ -14,7 +14,7 @@ test('creates correct link html', (assert) => {
         }
     };
 
-    const expected = '<a class="quest" href="quest.html?id=park" style="top: 10%; right: 40%;"></a>';
+    const expected = '<a class="quest" href="quest.html?id=park" style="top: 10%; right: 40%;">City Park</a>';
 
     const dom = createQuestLink(quest);
 
