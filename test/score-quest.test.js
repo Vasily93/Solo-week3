@@ -13,12 +13,16 @@ test('creates correct html', (assert) => {
 
     const user = {
         life: 30,
-        food: 20
+        food: 20,
+        completed: {}
     };
 
     const expected = {
         life:50,
-        food: 6
+        food: 6,
+        completed: {
+            park: true
+        }
     };
 
     scoreQuest(choice, questId, user);
